@@ -21,20 +21,15 @@ This work was done for the second assessment of the PMLDL course.
 ## Solution
 A movie recommendation system written using keras. The recommendation model uses a collaborative filtering approach that incorporates embeddings of user and item data. 
 
-Model Architecture:
+### Model Architecture:
 
-Embedding Layers
+1. Embedding Layers
 
-Flatten and Concatenate
+2. Flatten and Concatenate
 
-Dense Layers: 
-* Dense(64, activation='relu'): The first dense layer with ReLU activation function.
-* Dropout(0.5): Dropout layer to prevent overfitting by randomly setting a fraction of input units to 0 at each update during training.
-* Dense(32, activation='relu', kernel_regularizer=l2(0.01)): Second dense layer with ReLU activation and L2 regularization on the kernel weights.
-* Dropout(0.5): Another dropout layer.
-* Dense(16, activation='relu', kernel_regularizer=l2(0.01)): Third dense layer with ReLU activation and L2 regularization.
+3. Dense Layers (more in reports/final_report.pdf)
   
-Output Layer: The output layer generates a single rating prediction for each user-item pair.
+4. Output Layer
 
 ## Running the solution
 
