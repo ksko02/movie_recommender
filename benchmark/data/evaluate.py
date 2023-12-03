@@ -35,7 +35,7 @@ def evaluate():
 
     rmse, mae = evaluate_model(model, test_data)
 
-    print(f'Root Mean Squared Error (MSE): {mse}')
+    print(f'Root Mean Squared Error (MSE): {rmse}')
     print(f'Mean Absolute Error (MAE): {mae}')
   
 
