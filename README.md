@@ -1,7 +1,9 @@
 # Movie Recommender System
 
 Name: Oksana Konovalova
+
 Email: o.konovalova@innopolis.university
+
 Group number: B21-DS-02
 
 This work was done for the second assessment of the PMLDL course.
